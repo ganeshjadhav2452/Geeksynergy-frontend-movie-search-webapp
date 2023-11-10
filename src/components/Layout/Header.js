@@ -21,11 +21,19 @@ const Header = () => {
               <img src="https://cdn-icons-png.flaticon.com/128/2798/2798007.png" />Rock Movies
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              {isLoggedIn && <li className="nav-item">
-                <NavLink to="/company-info" className="nav-link ">
-                  Company Info
-                </NavLink>
-              </li>}
+              {isLoggedIn && <>
+                <li className="nav-item">
+                  <NavLink to="/dashboard" className="nav-link ">
+                    Dashboard
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/company-info" className="nav-link ">
+                    Company Info
+                  </NavLink>
+                </li>
+
+              </>}
               {!isLoggedIn &&
                 <>
                   <li className="nav-item">
