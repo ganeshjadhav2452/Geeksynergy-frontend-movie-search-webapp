@@ -1,0 +1,35 @@
+export const languages = [
+    'English',
+    'Spanish',
+    'French',
+    'German',
+    'Mandarin Chinese',
+    'Hindi',
+    'Arabic',
+    'Russian',
+    'Portuguese',
+    'Bengali',
+    'Urdu',
+    'Indonesian',
+    'Japanese',
+    'Swahili',
+    'Marathi',
+];
+
+export const genres = [
+    'All',
+    'Horror',
+    'Comedy',
+    'Drama',
+    'Sport',
+    'Romance',
+    'Biography',
+    'Action',
+    'Thriller',
+    'Family',
+    'Crime',
+    'Mystry',
+    'Fantasy',
+    'Musical',
+
+]

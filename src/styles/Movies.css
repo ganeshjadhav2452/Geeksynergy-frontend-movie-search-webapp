@@ -1,0 +1,28 @@
+/* MovieListScreen.css */
+
+/* style={{ 'border': '1px solid black', padding: '5px', margin: '1rem' }} */
+.select-style {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 1rem;
+  border-radius: 25px;
+}
+.select-submit {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 1rem;
+}
+.movie-list-screen {
+  padding: 20px;
+}
+
+.screen-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
